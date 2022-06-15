@@ -3,7 +3,7 @@
 
 # Instalation
 Download apk Termuxnya disini biar ngga eror🌟
-[Klik Disini](https://f-droid.org/repo/com.termux_117.apk)👈
+[Klik Disini]([https://f-droid.org/repo/com.termux_117.apk](https://f-droid.org/repo/com.termux_118.apk))👈
 ```bash
 $ cd
 $ pkg update && apt upgrade
