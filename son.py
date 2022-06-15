@@ -1,6 +1,6 @@
 #----------------------------------------
-# Compile : Alvino
-# Facebook : legend.alvino
+# Compile : -
+# Facebook : mencret
 # Github  : https://github.com/Al-Vino
 #----------------------------------------
 import marshal
