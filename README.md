@@ -5,7 +5,7 @@
 Download apk Termuxnya disini biar ngga eror🌟
 [Klik Disini]([https://f-droid.org/repo/com.termux_117.apk](https://f-droid.org/repo/com.termux_118.apk))👈
 ```bash
-$ cd
+
 $ pkg update && apt upgrade
 $ pkg install python git
 $ pkg install play-audio
@@ -17,7 +17,7 @@ $ ls
 $ cd Clone
 $ python son.py
 ```
-## Cara jalankan script
+## Cara maenkeun script
 
 $ cd Clone
 $ ls ( L kecil )
