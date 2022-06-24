@@ -250,7 +250,7 @@ def result():
 			geeh = input('\n>> Pilih : ')
 			try:geh = lol[geeh]
 			except KeyError:
-				print('>> Pilih Yang Bener Kontol ')
+				print('>> Pilih Sing Bener Koplok ')
 				exit()
 			try:lin = open('CP/'+geh,'r').read().splitlines()
 			except:
@@ -293,7 +293,7 @@ def result():
 			geeh = input('\n>> Pilih : ')
 			try:geh = lol[geeh]
 			except KeyError:
-				print('>> Pilih Yang Bener Kontol ')
+				print('>> Pilih Sing Bener Koplok ')
 				exit()
 			try:lin = open('OK/'+geh,'r').read().splitlines()
 			except:
@@ -312,7 +312,7 @@ def result():
 	elif kz in ['0','00']:
 		back()
 	else:
-		print('>> Pilih Yang Bener Kontol ')
+		print('>> Pilih Sing Bener Koplok ')
 		exit()
 #-------------------[ CRACK-PUBLIK ]----------------#
 def dump_massal():
@@ -322,12 +322,12 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		jum = int(input('>> Mau Berapa Target Njing ? : '))
+		jum = int(input('>> Sabaraha hiji koplok ? : '))
 	except ValueError:
-		print('>> Masukkan Angka Anjing, Malah Huruff ')
+		print('>> Masukkan Angka Anjing, tong huruf ')
 		exit()
 	if jum<1 or jum>100:
-		print('>> Gagal Dump Idz ')
+		print('>> Gagal Tolol ')
 		exit()
 	ses=requests.Session()
 	yz = 0
@@ -347,11 +347,11 @@ def dump_massal():
 		except (KeyError,IOError):
 			pass
 		except requests.exceptions.ConnectionError:
-			print('>> Sinyal Loh Kek Kontoll ')
+			print('>> Sinyal Kontoll ')
 			exit()
 	try:
 		print('')
-		print(f'>> Total Idz Yang Terkumpul🔥{h}'+str(len(id)))
+		print(f'>> Total Idz teman Yang Terkumpul🔥{h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
@@ -525,7 +525,7 @@ def crack_file():
 		geeh = input('\n>> Pilih : ')
 		try:geh = lol[geeh]
 		except KeyError:
-			print(f'{k}>> Pilih Yang Bener Kontol {x}')
+			print(f'{k}>> Pilih Sing Bener Koplok {x}')
 			time.sleep(3)
 			back()
 		try:lin = open('DUMP/'+geh,'r').read().splitlines()
@@ -565,24 +565,24 @@ def setting():
 		exit()
 	print('>> 1. Mobile ')
 #	print('>> 2. Mbasic ')
-#	print('>> 3. Touch  ')
+#	print('>> 3. Free  ')
 #	print('>> 4. Mtouch ')
 	print('')
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
 		method.append('mobile')
-#	elif hc in ['2','02']:
-#		method.append('free')
+#	if hc in ['2','02']:
+#		method.append('mbasic')
 #	elif hc in ['3','03']:
-#		method.append('touch')
+#		method.append('free')
 	elif hc in ['4','04']:
-		method.append('mbasic')
+		method.append('mtouch')
 	else:
-		method.append('mobile')
+		method.append('free')
 	print('')
 #	_jembot_ = input('>> Tambahkan Aplikasi Terkait ( Y/t ) ')
 #	if _jembot_ in ['']:
-#		print('>> Pilih Yang Bener Kontol ')
+#		print('>> Pilih Sing Bener Koplok ')
 #		back()
 #	elif _jembot_ in ['y','Y']:
 #		taplikasi.append('ya')
