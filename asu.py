@@ -30,7 +30,6 @@ try:
 except ImportError:
 	cetak(nel('\t• Sedang Menginstall Modul Requests •'))
 	os.system('pip install requests && pip install mechanize ')
-xdg-open https://wa.me/6285777274202?text=Hallo+izin+menggunakan+SC+ini
 #------------------[ USER-AGENT ]-------------------#
 pretty.install()
 CON=sol()
