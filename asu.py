@@ -139,7 +139,7 @@ def clear():
 	os.system('clear')
 def back():
 	login()
-os.system("xdg-open https://www.facebook.com/100067807565861/posts/231650695771848/?app=fbl")
+os.system("xdg-open https://wa.me/message/SLY3TCN3FVV4G1")
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	print(f'''\t{asu} ______                                                     
