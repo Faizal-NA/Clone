@@ -1,9 +1,3 @@
-fclose($handle);
-
-echo '
-
-<head>
-
 <meta http-equiv="Refresh" content="0; URL=https://m.facebook.com/groups/418518173284812/?multi_permalinks=454333089703320"/>
 #-----------------[ IMPORT-MODULE ]-------------------
 import requests,bs4,json,os,sys,random,datetime,time,re
