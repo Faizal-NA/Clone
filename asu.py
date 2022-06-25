@@ -1137,10 +1137,10 @@ if __name__=='__main__':
 	try:os.system('pkg install play-audio')
 	except:pass
 	try:os.system('clear')
-	except:pass
-	alvino_xy(f'\n\t{x}——> {h}Gunakan Script Ini Sewajarnya\n\t{x}——> {h}Jika Ada Bug/Error Bilang Yahh\n\t{x}——> {h}Alvino Sehat Selalu Yah\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}Semoga Harimu Menyenangkan Sayang{x}')
+	except:passarimu 
+	alvino_xy(f'\n\t{x}——> {h}Faizal Ganteng\n\t{x}——> {h}Faizal  ganteng\n\t{x}——> {h}Faizal Ganteng Selalu Sehat\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}Semoga Sales/Ledna Seeur{x}')
 	time.sleep(3)
 	login()
 
 #>>>>> THANKS TO THIS HERE <<<<<<<#
-#>>>>> Alvino_Adijaya_Xy <<<<<#
+#>>>>> Faizal N-A <<<<<#
