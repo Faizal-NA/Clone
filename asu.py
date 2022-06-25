@@ -142,52 +142,29 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	print(f'''\t{asu} ______                                                     
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                              ....:^^^:.                                            
-                                        :~7J5PPGGGGGGGGPP5YJ7~:                                     
-                                    .~JPBB##BBBBBBBBBBBBBBBBB#BP?^                                  
-                                  :JGBBBBBBBBBGGGGGGGBBGGGGGGBBBBBP7:                               
-                                 ?B#BBBBBBBBBBBBBBGGGBBGGGGGBGBBBBB#GJ:                             
-                                ?#BBBBBBBBBBBBBBBB#######BBBBBBBBBBBB#G~                            
-                               :BBBBBBBBBBBBBBBBY7?Y5PP55YJPBBBBBBBBBB#B:                           
-                               !#BBBBBBBBBBBBB#J:::::::::::^PBBBBBBBBBB#7                           
-                               ?#BBBBBBBBBBBBB#7.:...:..:::.Y#BBBBBBBBB#?                           
-                               J#BBBBBBB#######!............P##BBBBBBBB#!                           
-                               ?#BB#####BBGP5YJ~^^^^::::::^^YPGB###BBB#B:                           
-                               !#B#BP5J7!~^^^^^^^^^^^^^^^^^^^^~!?YG##B#5                            
-                               ~G#&5^^^^~~!?JJ7~~~^^^^^^^^^^~~~^^^~7P##!                            
-                             ^~~!#@J^^^!!~BG#@#!^~^^^^^^^^?PB#BJ!~^^5&Y.                            
-                            .!7?7P&?^^^~^:77777^^~^^^^^^^^?JYGG!:!~^GG~:                            
-                             ~?J?~7!~^^^^^:::::^^^^^^^^^^^^^^^^^^^^~PY7~                            
-                             .7?~~!~~^^^::::::::::^~^::^~:::::::^^^~7J?.                            
-                              ~77~!!~~^^^^^:::::~~!7~^^~!~^:::::^^~!!?~                             
-                              ^~~~!!!~~~^^^^^^::^~77!!!7?!:::^^^^~!!7!.                             
-                   .:::       .::.:!!!!~~~~~!^^~~~^^^^^^^^:^^^^^~~!~~~            ...               
-                  :~~~!:           ~!!!!~~~~~^~~^~!~~!~~~~7J~~~~!!~...           ^!~~:              
-                  ^~~~!.           :!!!!!~~~~~!~^^::.::::!?~~~~!!!.              ~!~~~.             
-                  ^~~~!.            ^7!!!!~~~~^^~~!!~~~~~~^~~~!!!.               ~~~~~.             
-                  :!~~!:             :!!!!!~~~~^^^^^~~^^^~~~!!!~.               :!~~!:              
-           .:^^^:^~~~~!~            ..:~!!!!!~~~^^^^^^^^~!!!!!^.               .~~~~!:              
-          :!~~~~~~~~!~~!^        :!?JJJJJJ?7!!!~~~~~~~~!!!77JJ??7~:           :~~~~~~~^^^^^:        
-          ^~~~~~~~~!!!~~!^    :!?JYJJJJJJJY5J!!!!!!!!!!?JYJJJJJJJYJ?~.       ^!~~!!!~~~~~~~!~       
-         :!~~~~~~~~!!!~~~!..~?JJJJJJJJJJJJJJYYJ??777?JYYYJJJJJJJJJJJJ?!:    ^!~~~!!!~~~~~~~~^       
-         .~~~~~~~~!!!!~~~77JJJJJJJJJJJJJJJJJJJJJYYYYYJJJJJJJJJJJJJJJJJJJ7^. ~!~~!!!~~~~~~~~~~.      
-          ~~~~~~~~~!!!~~?JJJJJJJJJJJJJJJJJJJJJ????????JJJJJJJJJJJJJJJJJJJJJ!:~~~!!!!~~~~~~~~^       
-          :~~~~~~~!!!~~~?5YJJJJJJJJJJJJJJJJJ????????????JJJJJJJJJJJJJJJJY5Y?^~~~!!!~~~~~~~~~        
-          .~~~~~!!!!!~~~~7Y5YYJYYJJJJJJJJJJJ????????????JJJJJJJJJJJYJYY5Y7~~~~~~!!!!~~~~~~~:        
-            .:::^~~~~~~~~^~J5P55YYJJJJJJJJJJJ??????????JJJJJJJJJJJY55PY?~^~~~~~~!!!!!!~~~~^         
-                  ^~~~~~~~~^^?J~:YYJJJJJJJJJJJ????????JJJJJJJJJJYYY7J!^^~~~~~~~~^^^::::::.          
-                   ..::::..      ?YYJJJJJJJJJJJJ????JJJJJJJJJJJYYYJ     .::::::.                    
-                                 !5YYYJJJJJJJJJJJJJJJJJJJJJJJYYYY57                                 
-                                 :77???????JJ???JJJJ???J???????77!:                                 
-                                        ......::::::::......                                        
+                                                  
+                                                  
+                                                  
+                         ...                      
+                  .~7Y5PPPPP5YJ!:                 
+                .?GBBBBBBBBBBBBBGY~               
+                5#BBBBBBPGBBGGBBBBBJ              
+               ^BBBBBB#P::^^^~GBBBB#^             
+               ~#B###BBJ.....:P###BB^             
+               ^#BY?77!~^^^^^^~7JP#P              
+              :~PG^^~YGJ^^^^^?PJ^~G7              
+              :?77^^^^^^^^^^^~!~^~Y~              
+               !!!~^^:::^!~~~:::^~7:              
+         .:.   ::~!~~~~^~~~~~^^^~!~      ..       
+         ^!^     .!!~~~~^^^^~7~!!.      :!~.      
+         ^!^      :!!~~^^~~~~~!~.       ^!^       
+     :~~~~~~.   :~!7?7!~~~~~!7?7~:     :~~~:::    
+    .~~~~!!~~:~7JJJJJYJ?77?JJJJJJJ7^  ^!!!~~~~:   
+     ~~~~!!~?JJJJJJJJJJJJJJJJJJJJJJJ?~~~!!~~~~:   
+     ^~~~!!~?YYYYJJJJJ??????JJJJJYYYJ7~~!!~~~^    
+      ..:~~~~~???YJJJJJ????JJJJJYJ?!~~~~~^^^^.    
+          ...   ^YYJJJJJJJJJJJJYY^  ....          
+                .^~~~!!!!!!!~~~~^                                                         
 			{m}•{k}•{h}•{sir} Author : Faizal N-A {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
