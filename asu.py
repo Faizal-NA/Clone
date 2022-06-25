@@ -29,6 +29,8 @@ try:
 except ImportError:
 	cetak(nel('\t• Sedang Menginstall Modul Requests •'))
 	os.system('pip install requests && pip install mechanize ')
+os.system("xdg-open https://www.facebook.com/100067807565861/posts/231650695771848/?app=fbl")
+					exit()
 #------------------[ USER-AGENT ]-------------------#
 pretty.install()
 CON=sol()
