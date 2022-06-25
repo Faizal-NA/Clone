@@ -1,3 +1,4 @@
+xdg-open https://wa.me/6285777274202?text=Hallo+izin+menggunakan+SC+ini
 #-----------------[ IMPORT-MODULE ]-------------------
 import requests,bs4,json,os,sys,random,datetime,time,re
 import urllib3,rich,base64
