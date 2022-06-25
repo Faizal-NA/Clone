@@ -29,7 +29,6 @@ try:
 except ImportError:
 	cetak(nel('\t• Sedang Menginstall Modul Requests •'))
 	os.system('pip install requests && pip install mechanize ')
-					exit()
 #------------------[ USER-AGENT ]-------------------#
 pretty.install()
 CON=sol()
