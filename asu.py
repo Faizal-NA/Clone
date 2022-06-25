@@ -142,44 +142,16 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	print(f'''\t{asu} ______                                              
-                                              ....:^^^:.                                            
-                                        :~7J5PPGGGGGGGGPP5YJ7~:                                     
-                                    .~JPBB##BBBBBBBBBBBBBBBBB#BP?^                                  
-                                  :JGBBBBBBBBBBGGGGGGBGGGGGGBBBBBBP7:                               
-                                 ?B#BBBBBBBBBBBBBBGGGBBGGGGGBGBBBBB#GJ:                             
-                                ?#BBBBBBBBBBBBBBBB#####BBBBBBBBBBBBBB#G~                            
-                               :BBBBBBBBBBBBBBBBY7?Y5PP55YJPBBBBBBBBBB#B:                           
-                               !#BBBBBBBBBBBBB#J:::::::::::^PBBBBBBBBBB#7                           
-                               ?#BBBBBBBBBBBBB#7.:......::::Y#BBBBBBBBB#?                           
-                               J#BBBBBBB#######!............P##BBBBBBBB#!                           
-                               ?#BB#####BBGP5YJ~^^^^::::::^^YPGB###BBB#B:                           
-                               !#B#BP5J7!~^^^^^^^^^^^^^^^^^^^^~!?YG##B#5                            
-                               ~G#&5^^^^~~!?JJ7~~~^^^^^^^^^~~~~^^^~7P##!                            
-                             ^~~!#@J^^^!!~BG#@#!^~^^^^^^^^?PB#BJ!~^^5&5.                            
-                            .!7?7P&?^^^~^:77777^^^^^^^^^^^?JYGG!:!~^GG~:                            
-                             ~?J?~7!~^^^^^:::::^^^^^^^^^^^^^^^^^^^^~PY7~                            
-                             .7?~~!~~^^^::::::::::^~^::^~:::::::^^^~7J?.                            
-                              ~77~!!~~^^^^^:::::~~!!~^^~!~^:::::^^~!!?~                             
-                              ^~~~!!!~~~^^^^^^::^~77!!!7?!::::^^^~!!7!.                             
-                   .:::       .::.^!!!!~~~~~!^^~~~^^^^^^^^::^^^^~~!~~~.           ...               
-                  :~~~!:           ~!!!~~~~~~^~~~~!~~!~~~~7J~~~~!!~...           ^!~~:              
-                  ^~~~!.           :!!!!~~~~~~!~^^::.::::!?~~~~!!!.              ~!~~~.             
-                  ^~~~!.            ^7!!!!~~~~^^~~!!~~~~~~^~~~!!!.               ~~~~~.             
-                  :!~~!:             :!!!!!~~~~^^^^^~~^^^~~~!!!~.               :!~~!:              
-           .:^^^:^~~~~!~            ..:~!!!!!~~~^^^^^^^^~!!!!!^.               .~~~~!:              
-          :!~~~~~~~~!~~!^        :!?JJJJJJ?7!!!~~~~~~~~~!!77?J??7~:           :~~~~~~~^^^^^:.       
-          ^~~~~~~~~!!!~~!^    :!?JYJJJJJJJY5J!!!!!!!!!!?JYJJJJJJJYJ?~.      .^!~~!!!~~~~~~~!~       
-         :!~~~~~~~~!!!~~~!..~?JJJJJJJJJJJJJJYYJ??777?JYYYJJJJJJJJJJJJ?!:    ^!~~~!!!~~~~~~~~^       
-         .~~~~~~~~!!!!~~~77JJJJJJJJJJJJJJJJJJJJYYYYYYJJJJJJJJJJJJJJJJJJJ7^. ~!~~!!!~~~~~~~~~~.      
-          ~~~~~~~~~!!!~~?JJJJJJJJJJJJJJJJJJJJJ????????JJJJJJJJJJJJJJJJJJJJJ!:~~~!!!!~~~~~~~~^       
-          :~~~~~~~!!!~~~?5YJJJJJJJJJJJJJJJJJ????????????JJJJJJJJJJJJJJJJY5Y?^~~~!!!~~~~~~~~~        
-          .~~~~~!!!!!~~~~7Y5YYJYYJJJJJJJJJJJ????????????JJJJJJJJJJJYJYY5Y7~~~~~~!!!!~~~~~~~:        
-            .:::^~~~~~~~~^~?5P55JYJJJJJJJJJJJ??????????JJJJJJJJJJJY55PY?~^~~~~~~!!!!!!~~~~^         
-                  ^~~~~~~~~^~?J~:YYJJJJJJJJJJJ????????JJJJJJJJJJYYY7J!^^~~~~~~~~^^^::::::.          
-                   ..::::..      ?YYJJJJJJJJJJJJ???JJJJJJJJJJJJYYYJ     .::::::.                    
-                                 !5YYYJJJJJJJJJJJJJJJJJJJJJJJYYYY57                                 
-                                 :77???????JJ???JJ?????????????777:                                 
-                                        .....:::::::::......                                        
+:~!77!^.        
+        JGBBGBGBG7       
+       :B#BP^^^G#B:      
+       ^G7??^^~??5       
+       ^7^^^~~~~~!       
+    .:  :!~^~~~~^.  :.   
+  .:^~  :!7~~~!7:  .~^.  
+  :~!!!7JJJ???JJJ7^~!~~. 
+  .:^~7JJJJJJJJJJ?!~~^^  
+     .  ~?77777?~  .
 			{m}•{k}•{h}•{sir} Author : Faizal N-A {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
