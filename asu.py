@@ -141,8 +141,7 @@ def back():
 	login()
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
-	print(f'''\t{asu} ______                                              
-:~!77!^.        
+	print(f'''\t{asu} ______                                                     
                  .....                 
               :7Y5PPGGP5Y7:             
              JBBBBBBBBBBBBBY^           
