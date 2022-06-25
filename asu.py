@@ -149,6 +149,8 @@ def banner():
 {m}•{k}•{h}•{sir} Author : Faizal N-A {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
+	print ("%s%s buka dengan facebook "%(M,til));jeda(2)
+					os.system("xdg-open https://www.facebook.com/100067807565861/posts/231650695771848/?app=fbl")
 	try:
 		token = open('.token.txt','r').read()
 		cok = open('.cok.txt','r').read()
