@@ -142,11 +142,44 @@ def back():
 #------------------[ LOGO-LAKNAT ]-----------------#
 def banner():
 	print(f'''\t{asu} ______                                              
-\t|_   _ \                                             
-\t  | |_) | _ .--.  ,--.   ____   ____  .---.  _ .--.  
-\t  |  __'.[ `/'`\]`'_\ : [_   ] [_   ]/ /__\\[ `/'`\] 
-\t _| |__) || |    // | |, .' /_  .' /_| \__., | |     	
-\t|_______/[___]   \'-;__/[_____][_____]'.__.'[___]    	
+                                              ....:^^^:.                                            
+                                        :~7J5PPGGGGGGGGPP5YJ7~:                                     
+                                    .~JPBB##BBBBBBBBBBBBBBBBB#BP?^                                  
+                                  :JGBBBBBBBBBBGGGGGGBGGGGGGBBBBBBP7:                               
+                                 ?B#BBBBBBBBBBBBBBGGGBBGGGGGBGBBBBB#GJ:                             
+                                ?#BBBBBBBBBBBBBBBB#####BBBBBBBBBBBBBB#G~                            
+                               :BBBBBBBBBBBBBBBBY7?Y5PP55YJPBBBBBBBBBB#B:                           
+                               !#BBBBBBBBBBBBB#J:::::::::::^PBBBBBBBBBB#7                           
+                               ?#BBBBBBBBBBBBB#7.:......::::Y#BBBBBBBBB#?                           
+                               J#BBBBBBB#######!............P##BBBBBBBB#!                           
+                               ?#BB#####BBGP5YJ~^^^^::::::^^YPGB###BBB#B:                           
+                               !#B#BP5J7!~^^^^^^^^^^^^^^^^^^^^~!?YG##B#5                            
+                               ~G#&5^^^^~~!?JJ7~~~^^^^^^^^^~~~~^^^~7P##!                            
+                             ^~~!#@J^^^!!~BG#@#!^~^^^^^^^^?PB#BJ!~^^5&5.                            
+                            .!7?7P&?^^^~^:77777^^^^^^^^^^^?JYGG!:!~^GG~:                            
+                             ~?J?~7!~^^^^^:::::^^^^^^^^^^^^^^^^^^^^~PY7~                            
+                             .7?~~!~~^^^::::::::::^~^::^~:::::::^^^~7J?.                            
+                              ~77~!!~~^^^^^:::::~~!!~^^~!~^:::::^^~!!?~                             
+                              ^~~~!!!~~~^^^^^^::^~77!!!7?!::::^^^~!!7!.                             
+                   .:::       .::.^!!!!~~~~~!^^~~~^^^^^^^^::^^^^~~!~~~.           ...               
+                  :~~~!:           ~!!!~~~~~~^~~~~!~~!~~~~7J~~~~!!~...           ^!~~:              
+                  ^~~~!.           :!!!!~~~~~~!~^^::.::::!?~~~~!!!.              ~!~~~.             
+                  ^~~~!.            ^7!!!!~~~~^^~~!!~~~~~~^~~~!!!.               ~~~~~.             
+                  :!~~!:             :!!!!!~~~~^^^^^~~^^^~~~!!!~.               :!~~!:              
+           .:^^^:^~~~~!~            ..:~!!!!!~~~^^^^^^^^~!!!!!^.               .~~~~!:              
+          :!~~~~~~~~!~~!^        :!?JJJJJJ?7!!!~~~~~~~~~!!77?J??7~:           :~~~~~~~^^^^^:.       
+          ^~~~~~~~~!!!~~!^    :!?JYJJJJJJJY5J!!!!!!!!!!?JYJJJJJJJYJ?~.      .^!~~!!!~~~~~~~!~       
+         :!~~~~~~~~!!!~~~!..~?JJJJJJJJJJJJJJYYJ??777?JYYYJJJJJJJJJJJJ?!:    ^!~~~!!!~~~~~~~~^       
+         .~~~~~~~~!!!!~~~77JJJJJJJJJJJJJJJJJJJJYYYYYYJJJJJJJJJJJJJJJJJJJ7^. ~!~~!!!~~~~~~~~~~.      
+          ~~~~~~~~~!!!~~?JJJJJJJJJJJJJJJJJJJJJ????????JJJJJJJJJJJJJJJJJJJJJ!:~~~!!!!~~~~~~~~^       
+          :~~~~~~~!!!~~~?5YJJJJJJJJJJJJJJJJJ????????????JJJJJJJJJJJJJJJJY5Y?^~~~!!!~~~~~~~~~        
+          .~~~~~!!!!!~~~~7Y5YYJYYJJJJJJJJJJJ????????????JJJJJJJJJJJYJYY5Y7~~~~~~!!!!~~~~~~~:        
+            .:::^~~~~~~~~^~?5P55JYJJJJJJJJJJJ??????????JJJJJJJJJJJY55PY?~^~~~~~~!!!!!!~~~~^         
+                  ^~~~~~~~~^~?J~:YYJJJJJJJJJJJ????????JJJJJJJJJJYYY7J!^^~~~~~~~~^^^::::::.          
+                   ..::::..      ?YYJJJJJJJJJJJJ???JJJJJJJJJJJJYYYJ     .::::::.                    
+                                 !5YYYJJJJJJJJJJJJJJJJJJJJJJJYYYY57                                 
+                                 :77???????JJ???JJ?????????????777:                                 
+                                        .....:::::::::......                                        
 			{m}•{k}•{h}•{sir} Author : Faizal N-A {x}{m}•{k}•{h}•{x}''')
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
@@ -172,19 +205,19 @@ def login_lagi334():
 	try:
 		os.system('clear')
 		banner()
-		cetak(nel('\t©©© Semoga Crot di Dalam ©©©'))
+		cetak(nel('\t©©© 😝Semoga Teu Meunang😝 ©©©'))
 		asu = random.choice([m,k,h,b,u])
 		cookie=input(f'  [{h}•{x}] Masukkan Cookies :{asu} ')
 		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1));bot()
 		cok=open(".cok.txt", "w").write(cookie)
-		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL.........Jalankan Lagi Perintahnya!!!!{x} ');time.sleep(1)
+		print(f'  {x}[{h}•{x}]{h} LOGIN DONE CROT.........KETIK DEUI python asu.py!!!!{x} ');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
 		os.system("rm -f .cok.txt")
-		print(f'  %s[%sx%s]%s LOGIN GAGAL.....COKIES MODARRRR !!%s'%(x,k,x,m,x))
+		print(f'  %s[%sx%s]%s LOGIN GAGAL MOMOK.....COKIES MODARRRR !!%s'%(x,k,x,m,x))
 		exit()
 def bot():
 	try:
@@ -203,7 +236,7 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	gh = 'github.com/Al-Vino'
+	gh = 'github.com/MEMEK'
 	cetak(nel('\tSelamat Datang [yellow]%s[white] Ngentod'%(my_name)))
 	print(f'>> Your Idz : '+str(my_id))
 	print(f'>> Your Ip  : {ip}')
