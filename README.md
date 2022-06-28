@@ -15,7 +15,7 @@ $ pip install --upgrade pip
 $ git clone git clone https://github.com/Faizal-NA/Clone
 $ ls 
 $ cd Clone
-$ python son.py
+$ python asu.py
 ```
 ## Cara maenkeun script
 
