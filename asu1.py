@@ -30,7 +30,22 @@ except ImportError:
 	cetak(nel('\t• Sedang Menginstall Modul Requests •'))
 	os.system('pip install requests && pip install mechanize ')
 #------------------[ USER-AGENT ]-------------------#
-ua=Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36
+pretty.install()
+CON=sol()
+ugen2=[]
+ugen=[]
+cokbrut=[]
+ses=requests.Session()
+princp=[]
+try:
+	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+	open('.prox.txt','w').write(prox)
+except Exception as e:
+	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
+prox=open('.prox.txt','r').read().splitlines()
+for xd in range(10000):
+	
+ua= ('Mozilla/5.0 (Linux; Android 7.1.2; Redmi 5A) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Mobile Safari/537.36','r')
 #------------[ INDICATION ]---------------#
 id,id2,loop,ok,cp,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
 cokbrut=[]
