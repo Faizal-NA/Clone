@@ -210,7 +210,7 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('clear')
 	except:passarimu 
-	alvino_xy(f'\n\t{x}——> {h}Faizal Ganteng\n\t{x}——> {h}Faizal crot\n\t{x}——> {h}Faizal Ganteng Selalu Sehat\n\t{x}——> {h}Semoga Di Mudahkan Rezekinya Amin\n\t{x}——> {h}Semoga Sales/Ledna Seeur{x}')
+	alvino_xy(f'\n\t{x}——> {h}Script error ! masih dalam pengembangan. antosan upami salse ngke d lereskeun\n\t{x}——> {h}Mugia crot sadayana\n\t{x}——> {h}Semoga Sales/Ledna Seeur{x}')
 	time.sleep(3)
 	login()
 
