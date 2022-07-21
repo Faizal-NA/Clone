@@ -828,7 +828,7 @@ def crackfree(idf,pwv):
 
 			#if "checkpoint" in po.cookies.get_dict().keys():
 				#print(f'\r{K}>> {idf}|{pw}{N}')     
-				os.popen('play-audio .cp.mp3')
+				#os.popen('play-audio .cp.mp3')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
