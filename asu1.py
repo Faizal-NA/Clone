@@ -590,17 +590,17 @@ def setting():
 		for xmud in range(bcm):
 			id2.append(muda[bcmi])
 			bcmi -=1
-#	elif hu in ['3','03']:
-#		for bacot in id:
-#			xx = random.randint(0,len(id2))
-#			id2.insert(xx,bacot)
+	elif hu in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
 	else:
 		print('>> Pilih Sing Bener Koplok ')
 		exit()
 	print('>> 1. Mobile ')
-#	print('>> 2. Mbasic ')
-#	print('>> 3. Touch  ')
-#	print('>> 4. Mtouch ')
+	print('>> 2. Mbasic ')
+	print('>> 3. Touch  ')
+	print('>> 4. Mtouch ')
 	print('')
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
@@ -608,12 +608,18 @@ def setting():
 	elif hc in ['']:
 		print('>> Pilih Sing Bener Koplok ')
 		setting()
-#	elif hc in ['2','02']:
+#	if hc in ['2','02']:
 #		method.append('free')
-#	elif hc in ['3','03']:
+        elif hc in ['']:
+		print('>> Pilih Sing Bener Koplok ')
+#	if hc in ['3','03']:
 #		method.append('touch')
-	elif hc in ['4','04']:
+        elif hc in ['']:
+		print('>> Pilih Sing Bener Koplok ')
+	if hc in ['4','04']:
 		method.append('mbasic')
+	elif hc in ['']:
+		print('>> Pilih Sing Bener Koplok ')
 	else:
 		method.append('mobile')
 	print('')
