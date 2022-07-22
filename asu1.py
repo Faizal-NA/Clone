@@ -614,7 +614,7 @@ def setting():
 		method.append('touch')
 	if hc in ['4','04']:
 		method.append('mbasic')
-	elif hc in ['']:
+
 	else:
 		method.append('mobile')
 	print('')
