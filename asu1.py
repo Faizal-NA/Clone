@@ -637,7 +637,7 @@ def setting():
 		pwpluss.append('no')
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
-ddef passwrd():
+def passwrd():
 	print(f'>>>>> {m}•{k}•{h}•{x} Sedang Menggeser Matahari {m}•{k}•{h}•{x} <<<<< ')
 	print('')
 	print(f'>> Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
