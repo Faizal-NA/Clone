@@ -643,7 +643,7 @@ def passwrd():
 	print('')
 	print(f'>> Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
 	print(f'>> Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
-	print(f'>> Mainkan Mode Pesawat Setiap {m}1k{x} Idz\n')
+	print(f'>> {b}Mode Pesawat per {m}2 ratus{b} Id\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
