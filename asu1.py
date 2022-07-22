@@ -610,19 +610,11 @@ def setting():
 		setting()
 	if hc in ['2','02']:
 		method.append('free')
-        elif hc in ['']:
-		print('>> Pilih Sing Bener Koplok ')
-		setting()
 	if hc in ['3','03']:
 		method.append('touch')
-        elif hc in ['']:
-		print('>> Pilih Sing Bener Koplok ')
-		setting()
 	if hc in ['4','04']:
 		method.append('mbasic')
 	elif hc in ['']:
-		print('>> Pilih Sing Bener Koplok ')
-		setting()
 	else:
 		method.append('mobile')
 	print('')
