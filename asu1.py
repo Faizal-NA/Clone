@@ -156,7 +156,7 @@ def banner():
 
 │╰───────────────────────────────────────────────────╯│
 ╰─────────────────────────────────────────────────────╯
-         {m}•{k}•{h}•{sir} Author : Faizal N-A {x}{m}•{k}•{h}•{x}
+ {m}•{k}•{h}•{sir} Author : Faizal N-A {x}{m}•{k}•{h}•{x}
 ╰─────────────────────────────────────────────────────╯
 ''')
 #--------------------[ BAGIAN-MASUK ]--------------#
@@ -220,12 +220,12 @@ def menu(my_name,my_id):
 	print(f'⚡ Your Ip  : {ip}')
 	print(f'⚡ Github   : {gh}')
 	print('')
-	print('⚡ 1. Crack Publik ')
-	print('⚡ 2. Crack Follower ')
-	print('⚡ 3. Crack Grup   ')
-	print('⚡ 4. Crack File	')
-	print('⚡ 5. Hasil Crack  ')
-	print('⚡ 0. Keluar       ')
+	print('⚡ {hh} 1. Crack Publik ')
+	print('⚡  {hh}2. Crack Follower ')
+	print('⚡  {hh}3. Crack Grup   ')
+	print('⚡ {hh}4. Crack File	')
+	print('⚡ {hh}5. Hasil Crack  ')
+	print('⚡ {hh}0. Keluar       ')
 	_____FAIZAL_____ = input('\n⚡ Pilih : ')
 	if _____FAIZAL_____ in ['1']:
 		dump_massal()
@@ -586,9 +586,9 @@ def crack_file():
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
 	print(f'{x}⚡ 1. Akun Kolot ')
-	print('🔮 2. Akun Anyar ')
-	print('🔮 3. Acak akun ameh crot')
-	hu = input(' 💦 Pilih : ')
+	print('      ⚡ 2. Akun Anyar ')
+	print('   ⚡ 3. Acak akun ameh crot')
+	hu = input(' 👹 Pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)
