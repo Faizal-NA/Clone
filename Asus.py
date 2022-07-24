@@ -138,7 +138,7 @@ def lisensi():
 		tlisensi()
 	ses=requests.Session()
 	res=ses.get('https://app.cryptolens.io/api/key/Activate?token=WyIyMjQzOTgyMyIsInJRcVp6Z0VCRFVucDRFcEo5bVRCR1U3MHBIV2NZNjl3MDhtQVFWbm4iXQ&ProductId=16020&Key='+lisensikuni[0]).json()
-	status=res['licenseKey']['key']
+	#status=res['licenseKey']['key']
 	if status ==cek:
 		banner()
 		wel='# SELAMAT LISENSI KAMU VALID '
