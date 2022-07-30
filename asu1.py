@@ -694,7 +694,7 @@ def passwrd():
 		time.sleep(2)
 		exit()
 #--------------------[ METODE-MOBILE-1 ]-----------------#
-crack(idf,pwv):
+def crack(idf,pwv):
 	global loop,ok,cp
 	bo = random.choice([m,k,h,b,u,x])
 	sys.stdout.write(f"\r🎉 {P}[{b}{loop}{P}/{u}{len(id)}{P}]—{P}[{H}{ok}{P}]—{P}[{k}{cp}{x}]—[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
