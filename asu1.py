@@ -578,10 +578,11 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-	print(f'{x}⚡ 1. Akun Kolot ')
-	print('      ⚡ 2. Akun Anyar ')
-	print('   ⚡ 3. Acak akun ameh crot')
-	hu = input(' 👹 Pilih : ')
+	print(f'{x}>> 1. Akun Old ')
+	print('>> 2. Akun New ')
+	print('>> 3. Random ')
+	print('')
+	hu = input('>> Pilih : ')
 	if hu in ['1','01']:
 		for tua in sorted(id):
 			id2.append(tua)
@@ -600,41 +601,38 @@ def setting():
 			xx = random.randint(0,len(id2))
 			id2.insert(xx,bacot)
 	else:
-		print('⚡ Pilih Sing Bener Koplok ')
+		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('🔮 1. Mobile ')
-	print('🔮 2. Free ')
-	print('🔮 3. Touch  ')
-	print('🔮 4. Mbasic ')
+	print('>> 1. Mobile ')
+#	print('>> 2. Mbasic ')
+#	print('>> 3. Touch  ')
+#	print('>> 4. Mtouch ')
 	print('')
-	hc = input('⚡ Pilih : ')
+	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
 		method.append('mobile')
-	elif hc in ['']:
-		print('⚡ Pilih Sing Bener Koplok ')
-		setting()
-	elif hc in ['2','02']:
-		method.append('free')
-	elif hc in ['3','03']:
-		method.append('touch')
+#	elif hc in ['2','02']:
+#		method.append('free')
+#	elif hc in ['3','03']:
+#		method.append('touch')
 	elif hc in ['4','04']:
 		method.append('mbasic')
 	else:
 		method.append('mobile')
 	print('')
-	_jembot_ = input('⚡ Tambahkan Aplikasi ( Y/t ) ')
-	if _jembot_ in ['']:
-		print('⚡ Pilih Sing Bener Koplok ')
-		back()
-	elif _jembot_ in ['y','Y']:
-		taplikasi.append('ya')
-	else:
-		taplikasi.append('no')
-	pwplus=input('⚡ Tambahkan Password Manual ( Y/t ) ')
+#	_jembot_ = input('>> Tambahkan Aplikasi Terkait ( Y/t ) ')
+#	if _jembot_ in ['']:
+#		print('>> Pilih Yang Bener Kontol ')
+#		back()
+#	elif _jembot_ in ['y','Y']:
+#		taplikasi.append('ya')
+#	else:
+#		taplikasi.append('no')
+	pwplus=input('>> Tambahkan Password Manual ( Y/t ) ')
 	if pwplus in ['y','Y']:
 		pwpluss.append('ya')
 		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
-		pwku=input('⚡ Masukkan Password Tambahan : ')
+		pwku=input('>> Masukkan Password Tambahan : ')
 		pwkuh=pwku.split(',')
 		for xpw in pwkuh:
 			pwnya.append(xpw)
